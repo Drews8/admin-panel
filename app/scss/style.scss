@@ -1,0 +1,41 @@
+@import "normalize.css/normalize";
+
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 16px;
+}
+body {
+  background: rgb(235, 193, 193);
+}
+
+.card {
+  margin: 0 auto;
+  max-width: 1400px;
+  display: flex;
+  border-radius: 59px;
+  background-color: #fff;
+}
+.aside {
+  max-width: 250px;
+  width: 100%;
+  border-right: 1px solid #f8f8f8;
+}
+.header {
+  padding: 34px 45px;
+  display: flex;
+  justify-content: space-between;
+  &__title {
+    margin: 0;
+    color: green;
+    font-weight: 600;
+  }
+  &__descr {
+    color: #aeaeae;
+    font-weight: 400;
+    font-size: 1rem;
+  }
+  &__nav {
+  }
+}
